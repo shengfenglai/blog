@@ -7,7 +7,7 @@ import com.stone.blog.bean.UserBean;
 import com.stone.blog.mapper.UserMapper;
 import com.stone.blog.service.IUserService;
 
-@Service
+@Service("userService")
 public class UserServiceImpl implements IUserService {
 
     @Autowired
