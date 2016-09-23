@@ -1,11 +1,16 @@
 package com.stone.blog.service.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.stone.blog.bean.UserBean;
 import com.stone.blog.mapper.UserMapper;
-import com.stone.blog.service.UserService;
+import com.stone.blog.service.IUserService;
 
-public class UserServiceImpl implements UserService {
+@Service("userService")
+public class UserServiceImpl implements IUserService {
 
+    @Autowired
     private UserMapper userMapper;
 
     @Override
