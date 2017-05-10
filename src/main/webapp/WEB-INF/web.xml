@@ -7,7 +7,7 @@
 	<display-name>Stone Blog Web Application</display-name>
 	
 	<welcome-file-list>  
-        <welcome-file>/WEB-INF/page/index.html</welcome-file>  
+        <welcome-file>login.html</welcome-file>  
 	</welcome-file-list>  
 
 	<context-param>
